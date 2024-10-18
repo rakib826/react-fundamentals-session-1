@@ -2,13 +2,15 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Products from './components/Products/Products'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-      <h1>Vite + React</h1>
+      <h2>Vite + React</h2>
+      <Products></Products>
     </>
   )
 }
